@@ -46,8 +46,7 @@ header nav ul {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    list-style: none;
-    
+    list-style: none;  
 }
 
 header nav ul li a {
@@ -103,11 +102,14 @@ header nav ul li a:hover {
     padding-right: 40px;
 }
 
-.info{                  /* Changes font size, color, and adds a padding to the left side */
+.info{
+    width: 100%;              /* Changes font size, color, and adds a padding to the left side */
     color: #D8E3E7;
     font-size: 30px;
-    padding: 20px;
     padding-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .info h2 {              /* sets the width of the element along with giving a right border */
@@ -115,5 +117,36 @@ header nav ul li a:hover {
     border-right: 4px solid #FFFFFF;
     text-align: right;
     padding-right: 40px;
+}
+
+.info nav {
+    width: 90%;
+}
+
+.info nav ul {
+    margin: 0 10px;
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+
+.info nav ul li{
+    margin: 0 30px;
+}
+
+.info nav ul li a {
+    color: #D8E3E7; 
+    text-decoration: none;
+    border-bottom: 2px solid #D8E3E7;
+    padding: 10px 10px;
+}
+
+.info nav ul li a:hover {
+    background-color: #132C33;
+    padding: 10px 10px;
+    border-radius:10px;
+    color:#51C4D3;
+    border: none;
 }
 
