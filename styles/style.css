@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #126E82;
+}
+
+/* Header styles start*/
+header {
+    background: #51C4D3;
+    color: #D8E3E7;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+header h1 {
+    width: 49.9%;
+    padding: 20px;
+    background-color: #132C33;
+    font-size: 45px;
+    color: #D8E3E7;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+}
+
+/* Header nav start*/
+header nav {
+    background: #132C33;
+    width: 49.9%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 25px;
+}
+
+header nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+
+header nav ul li a {
+    padding-right:10px;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding-bottom: 10px;
+    border-bottom: 2px solid #D8E3E7;
+    
+}
+
+header a {
+    text-decoration:none;
+    color: #D8E3E7;
+}
+
+header nav ul li a:hover {
+    background:#126E82;
+    color:#51C4D3;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+}
+/* Header styles end*/
+
+.bio{                   /* Changes font size, color, and adds a padding to the left side */
+    color: #D8E3E7;
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 60px;
+}
+
+.bio h2 {               /* sets the width of the element along with giving a right border */          
+    width: 10%;
+    border-right: 4px solid #FFFFFF;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.projects{              /* Changes font size, color, and adds a padding to the left side */
+    color: #D8E3E7;
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 60px;
+}
+
+.projects h2 {          /* sets the width of the element along with giving a right border */
+    width: 10%;
+    border-right: 4px solid #FFFFFF;
+    text-align: right;
+    padding-right: 40px;
+}
+
+.info{                  /* Changes font size, color, and adds a padding to the left side */
+    color: #D8E3E7;
+    font-size: 30px;
+    padding: 20px;
+    padding-left: 60px;
+}
+
+.info h2 {              /* sets the width of the element along with giving a right border */
+    width: 10%;
+    border-right: 4px solid #FFFFFF;
+    text-align: right;
+    padding-right: 40px;
+}
+
