@@ -16,6 +16,17 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
+    position: fixed;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+.jumbo img {
+    width: 100%;
+    height: 200px;
 }
 
 header h1 {
@@ -97,7 +108,7 @@ header nav ul li a:hover {
     text-indent: 40px;
     font-size: 24px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    padding: 0px 20px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -105,11 +116,14 @@ header nav ul li a:hover {
 
 /* About me section end */
 
+/* Work section start */
 .projects{              /* Changes font size, color, and adds a padding to the left side */
     color: #D8E3E7;
     font-size: 30px;
     padding: 20px;
     padding-left: 60px;
+    display:flex;
+    flex-wrap: wrap;   
 }
 
 .projects h2 {          /* sets the width of the element along with giving a right border */
@@ -118,6 +132,57 @@ header nav ul li a:hover {
     text-align: right;
     padding-right: 40px;
 }
+
+.imagegallery {
+    width: 90%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+.limage {
+    width: 1200px;
+    height: 500px;
+    margin: 10px;
+    border: 5px solid #132C33;
+    opacity: 0.5;
+}
+
+.limage:hover {
+    opacity: 1.0;
+}
+
+.images {
+    width: 590px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #132C33;
+    opacity: 0.5;
+}
+
+.images:hover {
+    opacity: 1.0;
+}
+
+.flex-text {
+    margin: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #132C33;
+    position: absolute;
+}
+
+.flex-box {
+    display: flex;
+    flex: wrap;
+    position: relative;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* Work section ended*/
 
 .info{
     width: 100%;              /* Changes font size, color, and adds a padding to the left side */
