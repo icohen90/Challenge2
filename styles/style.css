@@ -84,7 +84,8 @@ header nav ul li a:hover {
 }
 /* Header styles end*/
 
-/* About me section start */
+
+                                            /* About me section start */
 .bio{                   /* Changes font size, color, and adds a padding to the left side */
     color: #D8E3E7;
     font-size: 30px;
@@ -101,20 +102,22 @@ header nav ul li a:hover {
     padding-right: 40px;
 }
 
+.bio img{
+    height: 250px;
+    width: 200px;
+    padding-left: 15px;
+    justify-content: center;
+}
+
 .bio p {
-    width: 90%;
+    width: 80%;
     text-indent: 40px;
     font-size: 24px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+}                                               /* About me section end */
 
-/* About me section end */
-
-/* Work section start */
+                                                /* Work section start */
 .projects{              /* Changes font size, color, and adds a padding to the left side */
     color: #D8E3E7;
     font-size: 30px;
@@ -255,6 +258,7 @@ header nav ul li a:hover {
     }
 
     .bio{                   /* Changes font size, color, and adds a padding to the left side */
+        width: 100%;
         color: #D8E3E7;
         font-size: 30px;
         padding: 20px;
@@ -390,7 +394,7 @@ header nav ul li a:hover {
     }
 
     .bio p {
-        width: 70%;
+        width: 40%;
         text-indent: 40px;
         font-size: 24px;
         font-family:Georgia, 'Times New Roman', Times, serif;
@@ -507,26 +511,31 @@ header nav ul li a:hover {
     .bio{                   /* Changes font size, color, and adds a padding to the left side */
         color: #D8E3E7;
         font-size: 30px;
-        padding: 20px;
         display: flex;
     }
 
     .bio h2 {               /* sets the width of the element along with giving a right border */          
-        width: 50%;
+        width: 40%;
         border-right: 4px solid #FFFFFF;
         text-align: right;
         padding-right: 40px;
     }
 
+    .bio img{
+        height: 250px;
+        width: 200px;
+        padding-left: 15px;
+        display: flex;
+        justify-content: center;
+    }
+
     .bio p {
-        width: 50%;
-        text-indent: 40px;
-        font-size: 24px;
-        font-family:Georgia, 'Times New Roman', Times, serif;
-        padding: 20px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+    }
+
+    .profile {
+        width: 30%;
     }
     
 
