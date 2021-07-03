@@ -10,7 +10,7 @@
 
 # Once, the page was fully done with all the required elements added. It was time to work on the media features and make sure that when using the website on other media platforms the website is functional. 
 
-<img src="challenge2/images/website1.png">
+<img src="challenge2/main/images/website1.png">
 <img src="challenge2/images/website2.png">
 
 The url for the live website is <a href="https://icohen90.github.io/Challenge2/"> Website URL</a>
