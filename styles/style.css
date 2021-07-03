@@ -232,49 +232,48 @@ header nav ul li a:hover {                /* changes the text and background of 
 /* Media qurery for smaller desktop screens and smaller */
 @media screen and (max-width: 980px) {
 
-    header h1 {
+    header h1 {                         /* resizes section*/
         width: 39.9%;
     }
 
-    header nav {
+    header nav {                        /* resizes section*/
         width: 59.9%;
     }
 
-    .bio h2 {                         
+    .bio h2 {                              /* resizes section*/   
         width: 25%;
     }
 
-    .bio p {
+    .bio p {                            /* resizes section*/
         width: 75%;
     }
 
-    .projects h2 {          
+    .projects h2 {                      /* resizes section*/
         width: 20%;
     }
 
-    .imagegallery {
+    .imagegallery {                     /* resizes section*/
         width: 80%;
     }
 
-    .limage {
+    .limage {                           /* resizes image*/
         max-width: 600px;
         height: 400px;
     }
 
-    .info h2 {             
+    .info h2 {                          /* resizes section*/
         width: 20%;
-
     }
 
-    .info nav {
+    .info nav {                         /* resizes section*/
         width: 80%;
     }
     
-    .info nav ul {
+    .info nav ul {                      /* resizes section*/
         height: 100px;
     }
     
-    .info nav ul li{    
+    .info nav ul li{                    /* changes margin*/
     margin: 0px;
     }
 
@@ -282,189 +281,91 @@ header nav ul li a:hover {                /* changes the text and background of 
  
 /*Media query for tablets and smaller */
 @media screen and (max-width: 768px) {
-    header nav ul{
+    header nav ul{                                  /* resizes section*/
         height: 150px;
     }
 
-    .bio h2 {                     
+    .bio h2 {                                       /* resizes section*/     
         width: 30%;
     }
 
-    .bio p {
+    .bio p {                                        /* resizes section*/
         width: 40%;
     }
 
-    .projects h2 {          
+    .projects h2 {                                  /* resizes section*/
         width: 30%;
     }
 
-    .imagegallery {
+    .imagegallery {                                 /* resizes section*/
         width: 70%;
     }
 
-    .limage {
+    .limage {                                       /* resizes image*/
         max-width: 450px;
         height: 300px;
     }
 
-    .images {
+    .images {                                       /* resizes image*/
         width: 390px;
         height: 200px;
     }
 
-    .info h2 {              
+    .info h2 {                                      /* resizes section*/
         width: 30%;
     }
 
-    .info nav {
+    .info nav {                                     /* resizes section*/
         width: 70%;
     }
     
-    .info nav ul {
+    .info nav ul {                                  /* resizes section*/
         height: 150px;
-    }
-    
-    .info nav ul li{    
-        margin: 0px;
     }
  }
 
 /*Media query for phones and smaller */
 @media screen and (max-width: 575px) {
-    header h1 {
-        width: 39.9%;
-        padding: 20px;
-        background-color: #132C33;
-        font-size: 45px;
-        color: #D8E3E7;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
-    }
-
-    header nav {
-        background: #132C33;
-        width: 59.9%;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        border-top-left-radius: 30px;
-        border-bottom-left-radius: 30px;
-        padding-top: 25px;
-        align-content: center;
-    }
-
-    header nav ul{
-        height: 150px;
-    }
-
-    .bio{                   /* Changes font size, color, and adds a padding to the left side */
-        color: #D8E3E7;
-        font-size: 30px;
-        display: flex;
-    }
-
-    .bio h2 {               /* sets the width of the element along with giving a right border */          
+    .bio h2 {                                       /* resizes section*/      
         width: 40%;
-        border-right: 4px solid #FFFFFF;
-        text-align: right;
-        padding-right: 40px;
     }
 
-    .bio img{
-        height: 250px;
-        width: 200px;
-        padding-left: 15px;
-        display: flex;
-        justify-content: center;
+    .projects h2 {                                  /* resizes section*/
+        width: 40%;
     }
 
-    .bio p {
-        display: flex;
-        flex-wrap: wrap;
+    .imagegallery {                                 /* resizes section*/
+        width: 60%;
     }
 
-    .profile {
-        width: 30%;
-    }
-    
-
-    .projects{              /* Changes font size, color, and adds a padding to the left side */
-        color: #D8E3E7;
-        font-size: 30px;
-        padding: 20px;
-        display:flex;
-        flex-wrap: wrap;   
-    }
-
-    .projects h2 {          /* sets the width of the element along with giving a right border */
-        width: 50%;
-        border-right: 4px solid #FFFFFF;
-        text-align: right;
-        padding-right: 40px;
-    }
-
-    .imagegallery {
-        width: 50%;
-        display:flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
-
-    .limage {
+    .limage {                                       /* resizes image*/
         max-width: 250px;
         height: 150px;
-        margin: 10px;
-        border: 5px solid #132C33;
-        opacity: 0.5;
     }
 
-    .images {
+    .images {                                   /* resizes image */
         width: 200px;
         height: 100px;
-        margin: 10px;
-        border: 5px solid #132C33;
-        opacity: 0.5;
     }
 
-    .flex-text{
+    .flex-text{                                     /* changes font size*/
         font-size: 18px;
     }
 
-    .info{
-        width: 100%;              /* Changes font size, color, and adds a padding to the left side */
-        color: #D8E3E7;
-        font-size: 30px;
-        padding: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
+    .info h2 {                                      /* resizes section*/
+        width: 40%;
     }
 
-    .info h2 {              /* sets the width of the element along with giving a right border */
-        width: 50%;
-        border-right: 4px solid #FFFFFF;
-        text-align: right;
-        padding-right: 40px;
-    }
-
-    .info nav {
-        width: 50%;
+    .info nav {                                 /* resizes section*/
+        width: 60%;
     }
     
-    .info nav ul {
+    .info nav ul {                              /* resizes section*/
         height: 200px;
-        list-style: none;
-        display:flex;
-        justify-content: space-evenly;
-    }
-    
-    .info nav ul li{    
-        margin: 0px;
     }
 
-    .info nav ul li a {
-        font-size: 24px;
+    .info nav ul li a {                         /* changes font size*/
+        font-size: 18px;
     }
   }
 
