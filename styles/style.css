@@ -66,8 +66,7 @@ header nav ul li a {
     font-size: 30px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding-bottom: 10px;
-    border-bottom: 2px solid #D8E3E7;
-    
+    border-bottom: 2px solid #D8E3E7;  
 }
 
 header a {
@@ -92,8 +91,7 @@ header nav ul li a:hover {
     padding: 40px;
     padding-left: 60px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .bio h2 {               /* sets the width of the element along with giving a right border */          
@@ -139,8 +137,6 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     justify-content: center;
 }
-
-
 
 .limage {
     width: 1200px;
@@ -231,4 +227,385 @@ header nav ul li a:hover {
     color:#51C4D3;
     border: none;
 }
+
+/* Media qurery for smaller desktop screens and smaller */
+@media screen and (max-width: 980px) {
+
+    header h1 {
+        width: 39.9%;
+        padding: 20px;
+        background-color: #132C33;
+        font-size: 45px;
+        color: #D8E3E7;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+        text-align: center;
+    }
+
+    header nav {
+        background: #132C33;
+        width: 59.9%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        padding-top: 25px;
+    }
+
+    .bio{                   /* Changes font size, color, and adds a padding to the left side */
+        color: #D8E3E7;
+        font-size: 30px;
+        padding: 20px;
+        padding-left: 60px;
+        display: flex;
+    }
+
+    .bio h2 {               /* sets the width of the element along with giving a right border */          
+        width: 20%;
+        border-right: 4px solid #FFFFFF;
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    .bio p {
+        width: 80%;
+        text-indent: 40px;
+        font-size: 24px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .projects{              /* Changes font size, color, and adds a padding to the left side */
+        color: #D8E3E7;
+        font-size: 30px;
+        padding: 20px;
+        padding-left: 60px;
+        display:flex;
+        flex-wrap: wrap;   
+    }
+
+    .projects h2 {          /* sets the width of the element along with giving a right border */
+        width: 20%;
+        border-right: 4px solid #FFFFFF;
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    .imagegallery {
+        width: 80%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .limage {
+        max-width: 600px;
+        height: 500px;
+        margin: 10px;
+        border: 5px solid #132C33;
+        opacity: 0.5;
+    }
+
+    .info{
+        width: 100%;              /* Changes font size, color, and adds a padding to the left side */
+        color: #D8E3E7;
+        font-size: 30px;
+        padding: 20px;
+        padding-left: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .info h2 {              /* sets the width of the element along with giving a right border */
+        width: 20%;
+        border-right: 4px solid #FFFFFF;
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    .info nav {
+        width: 80%;
+    }
+    
+    .info nav ul {
+        height: 100px;
+        list-style: none;
+        display:flex;
+    }
+    
+    .info nav ul li{    
+    margin: 0px;
+    }
+
+ }
+ 
+/*Media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+    header h1 {
+        width: 39.9%;
+        padding: 20px;
+        background-color: #132C33;
+        font-size: 45px;
+        color: #D8E3E7;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    header nav {
+        background: #132C33;
+        width: 59.9%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        padding-top: 25px;
+        align-content: center;
+    }
+
+    header nav ul{
+        height: 150px;
+    }
+
+    .bio{                   /* Changes font size, color, and adds a padding to the left side */
+        color: #D8E3E7;
+        font-size: 30px;
+        padding: 20px;
+        padding-left: 60px;
+        display: flex;
+    }
+
+    .bio h2 {               /* sets the width of the element along with giving a right border */          
+        width: 30%;
+        border-right: 4px solid #FFFFFF;
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    .bio p {
+        width: 70%;
+        text-indent: 40px;
+        font-size: 24px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+
+    .projects{              /* Changes font size, color, and adds a padding to the left side */
+        color: #D8E3E7;
+        font-size: 30px;
+        padding: 20px;
+        padding-left: 60px;
+        display:flex;
+        flex-wrap: wrap;   
+    }
+
+    .projects h2 {          /* sets the width of the element along with giving a right border */
+        width: 30%;
+        border-right: 4px solid #FFFFFF;
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    .imagegallery {
+        width: 70%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .limage {
+        max-width: 450px;
+        height: 300px;
+        margin: 10px;
+        border: 5px solid #132C33;
+        opacity: 0.5;
+    }
+
+    .images {
+        width: 390px;
+        height: 200px;
+        margin: 10px;
+        border: 5px solid #132C33;
+        opacity: 0.5;
+    }
+
+    .info{
+        width: 100%;              /* Changes font size, color, and adds a padding to the left side */
+        color: #D8E3E7;
+        font-size: 30px;
+        padding: 20px;
+        padding-left: 60px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .info h2 {              /* sets the width of the element along with giving a right border */
+        width: 30%;
+        border-right: 4px solid #FFFFFF;
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    .info nav {
+        width: 70%;
+    }
+    
+    .info nav ul {
+        height: 150px;
+        list-style: none;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    
+    .info nav ul li{    
+        margin: 0px;
+    }
+    
+ }
+
+/*Media query for phones and smaller */
+@media screen and (max-width: 575px) {
+    header h1 {
+        width: 39.9%;
+        padding: 20px;
+        background-color: #132C33;
+        font-size: 45px;
+        color: #D8E3E7;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+
+    header nav {
+        background: #132C33;
+        width: 59.9%;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+        padding-top: 25px;
+        align-content: center;
+    }
+
+    header nav ul{
+        height: 150px;
+    }
+
+    .bio{                   /* Changes font size, color, and adds a padding to the left side */
+        color: #D8E3E7;
+        font-size: 30px;
+        padding: 20px;
+        display: flex;
+    }
+
+    .bio h2 {               /* sets the width of the element along with giving a right border */          
+        width: 50%;
+        border-right: 4px solid #FFFFFF;
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    .bio p {
+        width: 50%;
+        text-indent: 40px;
+        font-size: 24px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+
+    .projects{              /* Changes font size, color, and adds a padding to the left side */
+        color: #D8E3E7;
+        font-size: 30px;
+        padding: 20px;
+        display:flex;
+        flex-wrap: wrap;   
+    }
+
+    .projects h2 {          /* sets the width of the element along with giving a right border */
+        width: 50%;
+        border-right: 4px solid #FFFFFF;
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    .imagegallery {
+        width: 50%;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .limage {
+        max-width: 250px;
+        height: 150px;
+        margin: 10px;
+        border: 5px solid #132C33;
+        opacity: 0.5;
+    }
+
+    .images {
+        width: 200px;
+        height: 100px;
+        margin: 10px;
+        border: 5px solid #132C33;
+        opacity: 0.5;
+    }
+
+    .flex-text{
+        font-size: 18px;
+    }
+
+    .info{
+        width: 100%;              /* Changes font size, color, and adds a padding to the left side */
+        color: #D8E3E7;
+        font-size: 30px;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .info h2 {              /* sets the width of the element along with giving a right border */
+        width: 50%;
+        border-right: 4px solid #FFFFFF;
+        text-align: right;
+        padding-right: 40px;
+    }
+
+    .info nav {
+        width: 50%;
+    }
+    
+    .info nav ul {
+        height: 200px;
+        list-style: none;
+        display:flex;
+        justify-content: space-evenly;
+    }
+    
+    .info nav ul li{    
+        margin: 0px;
+    }
+
+    .info nav ul li a {
+        font-size: 24px;
+    }
+  }
 
