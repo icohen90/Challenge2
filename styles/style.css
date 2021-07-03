@@ -8,7 +8,7 @@ body {
     background-color: #126E82;
 }
 
-/* Header styles start*/
+                                                    /* Header styles start*/
 header {
     background: #51C4D3;
     color: #D8E3E7;
@@ -24,7 +24,7 @@ header {
     width: 100%;
 }
 
-.jumbo img {
+.jumbo img {                                 /* sets height and width of the jumbo image */
     width: 100%;
     height: 200px;
 }
@@ -40,9 +40,9 @@ header h1 {
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     text-align: center;
-}
+}                                               /* Header main ends here */
 
-/* Header nav start*/
+                                                /* Header nav start*/
 header nav {
     background: #132C33;
     width: 49.9%;
@@ -60,11 +60,10 @@ header nav ul {
     list-style: none;  
 }
 
-header nav ul li a {
+header nav ul li a {                                 /* sets the padding, border, and size of text*/
     padding-right:10px;
     font-weight: bold;
     font-size: 30px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding-bottom: 10px;
     border-bottom: 2px solid #D8E3E7;  
 }
@@ -74,7 +73,7 @@ header a {
     color: #D8E3E7;
 }
 
-header nav ul li a:hover {
+header nav ul li a:hover {                /* changes the text and background of the links when hovered over*/
     background:#126E82;
     color:#51C4D3;
     border-radius: 10px;
@@ -86,7 +85,7 @@ header nav ul li a:hover {
 
 
                                             /* About me section start */
-.bio{                   /* Changes font size, color, and adds a padding to the left side */
+.bio{                           /* Changes font size, color, and adds a padding to the left side */
     color: #D8E3E7;
     font-size: 30px;
     padding: 40px;
@@ -95,18 +94,17 @@ header nav ul li a:hover {
     justify-content: center;   
 }
 
-.bio h2 {               /* sets the width of the element along with giving a right border */          
+.bio h2 {                       /* sets the width of the element along with giving a right border */          
     width: 10%;
     border-right: 4px solid #FFFFFF;
     text-align: right;
     padding-right: 40px;
 }
 
-.bio img{
+.bio img{                           /* profile image and size */
     height: 250px;
     width: 200px;
     padding-left: 15px;
-    justify-content: center;
 }
 
 .bio p {
@@ -127,21 +125,21 @@ header nav ul li a:hover {
     flex-wrap: wrap;   
 }
 
-.projects h2 {          /* sets the width of the element along with giving a right border */
+.projects h2 {                      /* sets the width of the element along with giving a right border */
     width: 10%;
     border-right: 4px solid #FFFFFF;
     text-align: right;
     padding-right: 40px;
 }
 
-.imagegallery {
+.imagegallery {                         /* Starts an imagegallery sets width and flexbox*/
     width: 90%;
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.limage {
+.limage {                                  /* sets width and height of the first image*/
     width: 1200px;
     height: 500px;
     margin: 10px;
@@ -153,7 +151,7 @@ header nav ul li a:hover {
     opacity: 1.0;
 }
 
-.images {
+.images {                                    /* sets widht and height of all other images*/
     width: 590px;
     height: 200px;
     margin: 10px;
@@ -165,7 +163,7 @@ header nav ul li a:hover {
     opacity: 1.0;
 }
 
-.flex-text {
+.flex-text {                                    /* sets the margin and padding of the text over image */
     margin: 20px;
     padding: 5px;
     border-radius: 10px;
@@ -173,7 +171,7 @@ header nav ul li a:hover {
     position: absolute;
 }
 
-.flex-box {
+.flex-box {                                      /* sets the positioning of the text */
     display: flex;
     flex: wrap;
     position: relative;
@@ -181,7 +179,7 @@ header nav ul li a:hover {
     justify-content: center;
 }
 
-/* Work section ended*/
+                                                        /* Work section ended*/
 
 .info{
     width: 100%;              /* Changes font size, color, and adds a padding to the left side */
@@ -204,7 +202,7 @@ header nav ul li a:hover {
     width: 90%;
 }
 
-.info nav ul {
+.info nav ul {                               /* positions the nav section */
     margin: 0 10px;
     list-style: none;
     display:flex;
@@ -216,20 +214,20 @@ header nav ul li a:hover {
     margin: 0 30px;
 }
 
-.info nav ul li a {
+.info nav ul li a {                          /* sets the styles of the links */
     color: #D8E3E7; 
     text-decoration: none;
     border-bottom: 2px solid #D8E3E7;
     padding: 10px 10px;
 }
 
-.info nav ul li a:hover {
+.info nav ul li a:hover {                  /* changes the text and background when hovering over link*/
     background-color: #132C33;
     padding: 10px 10px;
     border-radius:10px;
     color:#51C4D3;
     border: none;
-}
+}                                          /* Ends the contact me section*/
 
 /* Media qurery for smaller desktop screens and smaller */
 @media screen and (max-width: 980px) {
